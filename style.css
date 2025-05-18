@@ -1,0 +1,242 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.card-title-container{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Poppins_ExtraLight';
+    src: url('/four-card-feature-site/fonts/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins_Bold';
+    src: url('/four-card-feature-site/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins_Regular';
+    src: url('/four-card-feature-site/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card-title{
+    font-family: 'Poppins_ExtraLight', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color: hsl(212, 6%, 44%);
+    letter-spacing: 0.3px;
+}
+
+.card-subtitle-container{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.card-subtitle{
+    font-family: 'Poppins_Bold', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color: hsl(234, 12%, 34%);
+    letter-spacing: 0.3px;
+}
+
+.card-description{
+    /* border: 1px solid blue; */
+    width: 37%;
+    height: 90px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.card-description span{
+    font-family: 'Poppins_Regular', sans-serif;
+    font-size: 14px;
+    color: hsl(212, 6%, 44%);
+}
+
+.four-card-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /* margin-left: 10px; */
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-details{
+    width: 18vw;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+    padding: 27px 25px;
+    background-color: white;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.first{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.second{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.third{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.fourth{
+    border-top: 4px solid hsl(212, 86%, 64%)
+}
+
+.card-name{
+    width: 100%;
+}
+
+.card-name span{
+    font-family: 'Poppins_Bold', sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+    color: hsl(234, 12%, 34%);
+}
+
+.card-duty{
+    width: 100%;
+}
+
+.card-duty span{
+    font-family: 'Poppins_Regular', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: hsl(212, 6%, 44%);
+}
+
+.card-image{
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+}
+
+.second-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer{
+    margin-top: 10px;
+    font-family: "Poppins_Regular", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color:hsl(212, 6%, 44%)
+}
+
+footer a{
+    text-decoration: none;
+    color: hsl(0, 78%, 62%);
+    font-weight: 500;
+}
+
+@media (max-width: 1235px){
+    .card-description{
+        width: 52%;
+        height: 65px;
+    }
+}
+
+@media (max-width: 930px) and (min-width: 750px){
+    .card-name span{
+        font-size: 17px;
+    }
+
+    .card-duty span{
+        font-size: 11px;
+    }
+
+    .card-image{
+        margin-top: 15px;
+    }
+
+    .card-description{
+        width: 58%;
+        height: 90px;
+    }
+
+    .card-description span{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 749px) {
+    body{
+        display: block;
+        padding: 0px 50px;
+        padding-top: 60px;
+    }
+
+    .card-title{
+        font-size: 29px;
+    }
+
+    .card-subtitle{
+        font-size: 29px;
+    }
+
+    .card-description{
+        width: 100%;
+        margin-bottom: 50px;
+        height: 100px
+    }
+
+    .card-description span{
+        font-size: 18px;
+    }
+
+    .card-container, .four-card-container, .second-card-container{
+        display: block;
+    }
+
+    .card-details{
+        width: 87%;
+        height: 180px;
+        margin-bottom: 30px;
+    }
+
+    .card-name, .card-duty{
+        margin-bottom: 8px;
+    }
+
+    .card-name span{
+        font-size: 22px;
+    }
+
+    .card-duty span{
+        font-size: 17px;
+    }
+
+    footer{
+        font-size: 13px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
