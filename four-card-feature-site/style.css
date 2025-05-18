@@ -16,21 +16,21 @@ body{
 
 @font-face {
     font-family: 'Poppins_ExtraLight';
-    src: url('/four-card-feature-site/fonts/Poppins-ExtraLight.ttf') format('truetype');
+    src: url('four-card-feature-site/fonts/Poppins-ExtraLight.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Poppins_Bold';
-    src: url('/four-card-feature-site/fonts/Poppins-Bold.ttf') format('truetype');
+    src: url('four-card-feature-site/fonts/Poppins-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Poppins_Regular';
-    src: url('/four-card-feature-site/fonts/Poppins-Regular.ttf') format('truetype');
+    src: url('four-card-feature-site/fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -44,7 +44,6 @@ body{
 }
 
 .card-subtitle-container{
-    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -57,7 +56,6 @@ body{
 }
 
 .card-description{
-    /* border: 1px solid blue; */
     width: 37%;
     height: 90px;
     margin-top: 12px;
@@ -74,7 +72,6 @@ body{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    /* margin-left: 10px; */
 }
 
 .card-container{
